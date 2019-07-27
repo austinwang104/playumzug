@@ -109,3 +109,5 @@ psql -d sequelize_migration_demo -U sequelize_demo_admin
 * 測試一下umzug, node下針對migratiion進行操作的tool
 * 啟動不起來，感覺是因為連線無法建立。
 * 另外觀察了一下，主要是把migrate的功能包裝成API的形式。
+# playumzug
+測試一下umzug, node下針對migratiion進行操作的tool
