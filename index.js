@@ -15,10 +15,10 @@ const DB_NAME = 'sequelize_migration_demo';
 const DB_USER = 'sequelize_demo_admin';
 const DB_PASS = '';
 
-const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASS, {
-  host: DB_HOST,
-  port: DB_PORT,
-  dialect: DB_TYPE,
+const sequelize = new Sequelize('mig', 'root', 'Abcd1234', {
+  host: '120.0.0.1',//DB_HOST,
+  port: '3306',//DB_PORT,
+  dialect: 'mariadb',//DB_TYPE,
 
   pool: {
     max: 5,
